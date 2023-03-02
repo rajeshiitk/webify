@@ -1,0 +1,106 @@
+@import 'colors';
+@media screen and (max-width: 576px) {
+    nav{
+        position: fixed;
+        >div{
+            >img{
+                display: none;
+            }
+        }
+
+
+        >main{
+            >a{
+                font-size: 1rem;
+                margin:1rem;
+            }
+        }
+    
+    }  
+
+
+.home{
+    >main{
+        
+    h1 {
+        font: 500 6rem $text1;
+      }
+  
+      p {
+        font: 400 1rem $text1;
+      }
+    
+    }
+}    
+
+
+
+    
+.home2{
+    flex-direction: column;
+
+    
+  >img {
+    margin-bottom: 10rem;
+    width: 100%;
+    height: 100vh;
+    padding-top: 20em;
+  }
+   
+    >div{
+        margin-top: -20rem;
+        >p{
+            font-size: 2rem;
+        }
+    }
+}
+
+
+
+.home3{
+    >.card{
+      width: 90%;
+
+
+      
+    >h2 {
+        font-size: 2rem;
+      }
+  
+      >p {
+        font-size: 1.5rem;
+        padding: 2rem;
+        overflow: scroll;
+      }
+    }
+  }
+
+
+
+  .home4{
+    >div{
+        width: 80%;
+        height: fit-content;
+    }
+  }
+
+
+
+  .contact{
+    >main{
+        border-radius: 0 5rem 5rem 0;
+        box-shadow: inset 0 0 1rem rgba($color: rgb(152, 151, 151), $alpha: 1.0);
+        >form{
+            >div{
+                width: fit-content;
+            }
+
+            >button{
+                padding: 1rem 2rem;
+            }
+        }
+    
+    }
+  }
+}
+
