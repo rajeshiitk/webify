@@ -22,9 +22,9 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/services" element={<Services />} />
+        <Route exact path="/webify" element={<Home />} />
+        <Route exact path="/webify/contact/" element={<Contact />} />
+        <Route exact path="/webify/services/" element={<Services />} />
       </Routes>
       <Footer />
     </Router>

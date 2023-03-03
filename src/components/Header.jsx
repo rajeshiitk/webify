@@ -12,11 +12,12 @@ const Header = () => {
       </div>
         
         <main>
-        <HashLink to={"/#home"}>Home</HashLink>
-        <Link to={"/contact"}>Contact</Link>
-        <HashLink to={"/#about"}>About</HashLink>
-        <HashLink to={"/#brands"}>Brands</HashLink>
-        <HashLink to={"/services"}>Services</HashLink>
+        <HashLink smooth to={"/webify/#home"}>Home</HashLink>
+        <HashLink smooth to={"/webify/#about"}>About</HashLink>
+        <HashLink smooth to={"/webify/#brands"}>Brands</HashLink>
+        <HashLink to={"/webify/services"}>Services</HashLink>
+        <Link to={"webify/contact"}>Contact</Link>
+
         </main>
     </nav>
   )
