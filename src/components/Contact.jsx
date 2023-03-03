@@ -6,19 +6,19 @@ const Contact = () => {
             <main>
                 <h1>Contact Us</h1>
 
-                <form>
+                <form action='https://formspree.io/f/xyyajnab' method='POST'>
                     <div>
                         <label>Name</label>
-                        <input type="text" required placholder="abc" />
+                        <input type="text" name='name' required placholder="abc" />
                     </div>
                     <div>
                         <label>Email</label>
-                        <input type="email" required placholder="abc@xyz.com" />
+                        <input type="email"name='email' required placholder="abc@xyz.com" />
                     </div>
 
                     <div>
                         <label>Message</label>
-                        <textarea type="text"  required placholder="write your message here....." />
+                        <textarea type="text" name='message' required placholder="write your message here....." />
                     </div>
 
                     <button type='submit'>Send</button>
